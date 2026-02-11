@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revelations 2026</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to Revelations 2026</string>
+    <string name="welcome_subtitle">College Tech Fest</string>
+    <string name="welcome_tagline">Ignite Your Potential</string>
+    <string name="proceed">Get Started</string>
+    <string name="revelations">REVELATIONS</string>
+    <string name="year_2026">2026</string>
+    <string name="department_name">Department of Computer Science</string>
+    <string name="tagline">Ignite Your Potential</string>
+    <string name="proceed_to_register">Proceed to Register</string>
+    <string name="tap_anywhere_to_continue">Tap anywhere to continue</string>
+    <string name="event_dates">March 15-17, 2026</string>
+    <string name="department_image_desc">Department background</string>
+    <string name="university_logo_desc">University logo</string>
+    <string name="calendar_icon">Calendar icon</string>
+
+    <!-- Registration Screen -->
+    <string name="registration_title">Registration</string>
+    <string name="step_1_of_3">Step 1 of 3</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="registration_subtitle">Please fill in your details to register</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_mobile">Mobile Number</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_college">College Name</string>
+    <string name="progress_format">%1$d/%2$d</string>
+    <string name="clear">Clear</string>
+    <string name="next">Next</string>
+    <string name="basic_info_saved">Basic information saved!</string>
+    <string name="please_fill_all_fields">Please fill all fields correctly</string>
+    <string name="form_cleared">Form cleared</string>
+
+    <!-- Event Selection Screen -->
+    <string name="event_selection_title">Event Selection</string>
+    <string name="step_2_of_3">Step 2 of 3</string>
+    <string name="select_group">Select Group</string>
+    <string name="select_events">Number of Events</string>
+    <string name="select_your_events">Select Your Events</string>
+    <string name="event_selection_subtitle">Choose your event category and count</string>
+    <string name="group_selection_hint">Pick the category that suits you best</string>
+    <string name="number_of_events">Number of Events</string>
+    <string name="quick_select">Quick Select</string>
+    <string name="or_use_slider">Or use slider</string>
+    <string name="event_selection_saved">Event selection saved!</string>
+    <string name="please_select_group">Please select a group</string>
+    <string name="please_select_events">Please select number of events</string>
+    <string name="continue_button">Continue</string>
+    <string name="continue_text">Continue</string>
+    <string name="back">Back</string>
+    <string name="dropdown_icon">Dropdown</string>
+    <string name="info_icon">Info</string>
+
+    <!-- Confirmation Screen -->
+    <string name="confirmation_title">Confirmation</string>
+    <string name="step_3_of_3">Step 3 of 3</string>
+    <string name="review_details">Review Your Details</string>
+    <string name="name_label">Name:</string>
+    <string name="mobile_label">Mobile:</string>
+    <string name="email_label">Email:</string>
+    <string name="college_label">College:</string>
+    <string name="group_label">Group:</string>
+    <string name="events_label">Events:</string>
+    <string name="registration_id_label">Registration ID:</string>
+    <string name="submit">Submit</string>
+    <string name="registration_success">Registration Successful!</string>
+    <string name="registration_successful">Registration Successful!</string>
+    <string name="registration_id_format">Your Registration ID: %1$s</string>
+    <string name="edit_registration">Edit Registration</string>
+    <string name="edit_confirmation_message">Are you sure you want to edit your registration? You will be taken back to the registration screen.</string>
+    <string name="yes_edit">Yes, Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_registration">Confirm Registration</string>
+    <string name="final_confirmation_message">Please verify all your details are correct. Once confirmed, your registration will be processed.</string>
+    <string name="confirm">Confirm</string>
+    <string name="review_again">Review Again</string>
+    <string name="processing">Processing…</string>
+    
+    <!-- Additional Confirmation Screen strings -->
+    <string name="review_confirm">Review &amp; Confirm</string>
+    <string name="confirmation_subtitle">Please verify all your details below</string>
+    <string name="person_icon">Person icon</string>
+    <string name="event_icon">Event icon</string>
+    <string name="event_details">Event Details</string>
+    <string name="edit">Edit</string>
+    <string name="success_icon">Success icon</string>
+    <string name="registration_complete">Registration Complete!</string>
+    <string name="thank_you_message">Thank you for registering. We look forward to seeing you at Revelations 2026!</string>
+    <string name="registration_id">Registration ID</string>
+    <string name="registration_date">Registration Date</string>
+    <string name="share_details">Share Details</string>
+    <string name="new_registration">New Registration</string>
+</resources>

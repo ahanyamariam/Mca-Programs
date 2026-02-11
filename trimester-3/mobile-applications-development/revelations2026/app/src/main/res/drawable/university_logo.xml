@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="150"
+    android:viewportHeight="150">
+    <!-- Simple placeholder university logo -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M75,10 L10,50 L10,60 L75,100 L140,60 L140,50 Z"/>
+    <path
+        android:fillColor="@color/accent_gold"
+        android:pathData="M30,65 L30,120 L50,120 L50,75 Z"/>
+    <path
+        android:fillColor="@color/accent_gold"
+        android:pathData="M60,70 L60,120 L90,120 L90,70 Z"/>
+    <path
+        android:fillColor="@color/accent_gold"
+        android:pathData="M100,65 L100,120 L120,120 L120,75 Z"/>
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M20,120 L20,130 L130,130 L130,120 Z"/>
+</vector>

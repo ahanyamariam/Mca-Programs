@@ -1,0 +1,9 @@
+*.class
+*.o
+*.exe
+*.out
+.vscode/
+.idea/
+.DS_Store
+build/
+bin/

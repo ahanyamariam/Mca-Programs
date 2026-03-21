@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "mobile-applications-development",
+			"path": "."
+		},
+		{
+			"name": "lab5",
+			"path": "../../../../AndroidStudioProjects/lab5"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lab-3-ci-demo",
+  "version": "1.0.0",
+  "description": "Small Node project used to demonstrate a commit-triggered CI workflow",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "node scripts/lint.js",
+    "test": "node --test",
+    "build": "node scripts/build.js",
+    "start": "node src/index.js"
+  },
+  "engines": { "node": ">=20" },
+  "license": "ISC"
+}

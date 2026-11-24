@@ -1,5 +1,5 @@
 {
-  "name": "lab-3-ci-demo",
+  "name": "lab-2-ci-demo",
   "version": "1.0.0",
   "description": "Small Node project used to demonstrate a commit-triggered CI workflow",
   "main": "src/index.js",

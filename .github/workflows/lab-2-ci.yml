@@ -1,17 +1,17 @@
-name: Lab 3 CI
+name: Lab 2 CI
 
 # Runs on every commit pushed to any branch, and on pull requests to main,
-# but only when lab-3 (or this workflow) actually changed.
+# but only when lab-2 (or this workflow) actually changed.
 on:
   push:
     paths:
-      - 'trimester-5/devops/lab-3/**'
-      - '.github/workflows/lab-3-ci.yml'
+      - 'trimester-5/devops/lab-2/**'
+      - '.github/workflows/lab-2-ci.yml'
   pull_request:
     branches: [main]
     paths:
-      - 'trimester-5/devops/lab-3/**'
-      - '.github/workflows/lab-3-ci.yml'
+      - 'trimester-5/devops/lab-2/**'
+      - '.github/workflows/lab-2-ci.yml'
   workflow_dispatch:
 
 permissions:
@@ -19,12 +19,12 @@ permissions:
 
 # Cancel superseded runs on the same branch when new commits arrive.
 concurrency:
-  group: lab-3-ci-${{ github.ref }}
+  group: lab-2-ci-${{ github.ref }}
   cancel-in-progress: true
 
 defaults:
   run:
-    working-directory: trimester-5/devops/lab-3
+    working-directory: trimester-5/devops/lab-2
 
 jobs:
   lint:
@@ -64,6 +64,6 @@ jobs:
       - run: npm run build
       - uses: actions/upload-artifact@v4
         with:
-          name: lab-3-dist
-          path: trimester-5/devops/lab-3/dist
+          name: lab-2-dist
+          path: trimester-5/devops/lab-2/dist
           retention-days: 7
